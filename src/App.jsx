@@ -1,17 +1,19 @@
-import './App.css'
-import Header from './components/Header'
+import './App.css';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 
 function App() {
-
     return (
-        <>
-            {/* Header */}
+        <div className='app'>
             <Header />
-            {/* App Body */}
-                {/* Sidebar */}
+
+            <div className='app__body'>
+                <Sidebar />
                 {/* Feed */}
                 {/* Widgets */}
-        </>
+            </div>
+            
+        </div>
     )
 }
 
