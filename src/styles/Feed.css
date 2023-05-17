@@ -24,7 +24,20 @@
     display: flex;
     width: 100%;
 }
-/*
+
 .feed__input > form > input {
-1:19:48 / 11:30:02
-}*/
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feed__input > form > button {
+    display: none;
+}
+
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+}
